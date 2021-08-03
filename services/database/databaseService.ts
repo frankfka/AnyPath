@@ -1,3 +1,5 @@
+import { tmpdir } from 'os';
+import { join } from 'path';
 import { JSONFile, Low } from 'lowdb';
 import {nanoid} from "nanoid";
 import {
@@ -17,7 +19,9 @@ export default class DatabaseService {
 
   constructor() {
     // Use demo data - in reality, we would establish a connection to a remote DB
-    this.db = new Low<DatabaseSchema>(new JSONFile('local-mock-db.json'));
+    this.db = new Low<DatabaseSchema>(
+      new JSONFile(join(tmpdir(), 'local-mock-db.json'))
+    );
     this.init();
   }
 
