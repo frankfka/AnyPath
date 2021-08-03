@@ -20,6 +20,11 @@
       "educatorId": "afac1d31-6c01-4619-961c-57dd260643ee",
       "recipientId": "c7db2bce-6d15-447f-9cb3-43a562a492dc",
       "smartContractAddress": "KT1ED9vYSBcnYiX6FJeHjCRKvddEiRkqNmF1"
+    },
+    "KUrpNjyy_Ecr7zTfonDxy": {
+      "educatorId": "afac1d31-6c01-4619-961c-57dd260643ee",
+      "recipientId": "c7db2bce-6d15-447f-9cb3-43a562a492dc",
+      "smartContractAddress": "KT18iDBd9nftm14k6wJQDinYZSMi9UzRB1Fo"
     }
   },
   "educators": {
