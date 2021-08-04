@@ -2,7 +2,8 @@
 
 
 ### Getting Started
-To get started, run the `dev` script in `package.json` (ex. `npm run dev`)
+To get started, run the `dev` script in `package.json` (ex. `npm run dev`). The database of users is initialized with a few mock users, each with their
+own Tezos address. For the ID's and account addresses, please see: [mockInitialData.ts](https://github.com/frankfka/AnyPath/blob/main/services/database/mockInitialData.ts)
 
 ### Creating an Educational Record
 
